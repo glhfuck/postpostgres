@@ -399,7 +399,6 @@ _bt_binsrch(Relation rel,
 			else
 				break;
 		}
-		elog(FATAL, "BOOM");
 	} 
 	else 
 	{
