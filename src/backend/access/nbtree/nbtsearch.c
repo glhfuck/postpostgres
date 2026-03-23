@@ -400,7 +400,9 @@ _bt_binsrch(Relation rel,
 				break;
 		}
 		elog(FATAL, "BOOM");
-	} else {
+	} 
+	else 
+	{
 		while (high > low)
 		{
 			OffsetNumber mid = low + ((high - low) / 2);
